@@ -22,15 +22,13 @@
 ### 竞品分析验收
 
 见 [竞品分析验收标准](skills/competitor-research/references/acceptance.md)。主要检查：
-
-- 产品名单、型号、版本和总览表是否一致；
-- 每个产品是否写清最大特点、价格、实际操作和必要配置；
-- 单击、双击、按住、松开、输入、发送、执行等动作是否区分；
-- 默认能力、插件能力、自定义映射和未确认能力是否分开；
+- 研究目的、对象、版本和资料边界是否明确且前后一致；
+- 每个对象是否写清定位、相关能力、使用流程和适用范围；
+- 关键步骤、条件、角色、限制和反馈是否保留；
+- 现成能力、配置/扩展能力、理论可能和未确认能力是否分开；
 - 对比表是否围绕同一个问题，结论是否有证据支撑；
-- 近距离无线、家庭网络、跨网络和远程控制是否混淆；
-- 视频、图片、产品链接和关键事实是否可追溯、确实支持对应结论。
-
+- 产品本身、外部服务、集成环节和第三方能力是否分清；
+- 图片、视频、链接和关键事实是否可追溯并确实支持结论。
 ### 用户评论收集验收
 
 见 [用户评论验收标准](skills/user-review-analysis/references/acceptance.md)。主要检查：
@@ -137,3 +135,4 @@ python scripts/build_skills.py
 改进时先保留失败样例，再调整对应模块，并复测同类案例。不要因一次问题就把所有任务变成同一格式；用户本轮明确要求优先于默认约定。详见 [维护与设计](docs/design.md)。
 
 结构参考 [Agent Skills 规范](https://agentskills.io/specification)、[Anthropic Skills 仓库](https://github.com/anthropics/skills)与 [Claude Skill 编写指南](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)。PM-kit 是独立维护的项目。
+
