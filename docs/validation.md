@@ -6,7 +6,7 @@
 | --- | --- |
 | Skill 入口 | 四个入口通过 skill-creator 的 `quick_validate.py`；Windows 使用 `python -X utf8` 避免系统 GBK 解码中文出错 |
 | 仓库结构 | 四个 Skill、68 条连续规则、内部链接、自包含资源、UI 字段、marketplace 路径与评测清单通过仓库校验 |
-| 分发测试 | 本地5项测试：4项通过，1项因 Windows 不允许创建符号链接跳过；GitHub Linux CI 将运行同一测试集 |
+| 分发测试 | 本地5项测试：4项通过，1项因 Windows 不允许创建符号链接跳过；GitHub Linux CI 中5项全部通过，含符号链接拒绝测试 |
 | 独立 ZIP | 四包均构建成功；成员集合与对应 Skill 完全一致，内容逐文件核对，相同输入重复构建字节一致 |
 | 行为测试 | 三个新上下文执行者分别执行评论、定义，以及竞品与文风任务。四个任务的21个检查点均满足，见下表；这是显式指定 Skill 的测试 |
 | 发布材料 | 已检查公开文件中的内部文档链接、会话链接、个人路径等明显来源残留；示例均为泛化/合成材料。检查不是完整秘密检测认证 |
@@ -29,6 +29,6 @@
 - 未重新验证真实产品外链、视频内容或评论真实性；公开合成示例不能用作事实来源。
 - 本轮没有修改外部文档或安装到本机全局 Skill 目录。
 
-后续提交的自动结果见 [GitHub Actions](https://github.com/cynthia174/PM-kit/actions)。
+初次发布提交 `5ac5821` 的 [GitHub CI](https://github.com/cynthia174/PM-kit/actions/runs/38543521411) 已通过结构、5项分发测试和 ZIP 构建，并上传四包构建产物。后续提交结果见 [GitHub Actions](https://github.com/cynthia174/PM-kit/actions)。
 
 结构检查只验证本仓库采用的字段与目录契约，不是完整 YAML、Claude 插件兼容性或内容真实性认证。行为样例必须实际执行并检查输出，不能用规则存在代替结果通过。
