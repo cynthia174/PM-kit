@@ -2,18 +2,18 @@
 
 把产品工作中反复修改、验收形成的方法，整理为可以独立使用的 Agent Skills。
 
-目前包含 **3 个业务 Skill + 1 个文风 Skill**。每个 Skill 都有独立入口、验收标准与正反例；无需一次加载整套产品工作流程。
+目前包含 **4 个独立 Skill**，分别用于竞品分析、用户评论收集、产品定义和文风调整。它们可以分别使用，也可以组合起来写一篇完整的产品文档：先做竞品分析和用户评论收集，再完成产品定义，最后用文风 Skill 统一整理表达。每个 Skill 都有独立入口、验收标准与正反例。
 
 ## Skill 目录
 
 | Skill | 解决什么问题 | 典型请求 |
 | --- | --- | --- |
-| [competitor-research](skills/competitor-research/SKILL.md) | 竞品总览、实际用法、交互比较、素材与结论 | “比较这几款产品，重点讲功能和操作差异。” |
-| [user-review-analysis](skills/user-review-analysis/SKILL.md) | 评论筛选、拆分、概括、分类、去重、表格与洞察 | “整理这些用户评论，按产品分表，原文和出处保留。” |
-| [product-definition](skills/product-definition/SKILL.md) | 用户、场景、需求到功能的映射，以及形态和范围取舍 | “根据这些反馈做产品定义，先比较方案。” |
-| [product-writing-style](skills/product-writing-style/SKILL.md) | 平实、具体、简洁的中文工作文风 | “这段太像AI写的，缩短，但不要丢掉条件和结论。” |
+| [competitor-research](skills/competitor-research/SKILL.md) | **竞品分析**：整理竞品总览、实际用法、交互比较、素材与结论 | “比较这几款产品，重点讲功能和操作差异。” |
+| [user-review-analysis](skills/user-review-analysis/SKILL.md) | **用户评论收集**：筛选、拆分、概括、分类、去重评论，生成表格与洞察 | “整理这些用户评论，按产品分表，原文和出处保留。” |
+| [product-definition](skills/product-definition/SKILL.md) | **产品定义**：梳理用户、场景、需求到功能的映射，以及形态和范围取舍 | “根据这些反馈做产品定义，先比较方案。” |
+| [product-writing-style](skills/product-writing-style/SKILL.md) | **文风调整**：把产品工作文字改得平实、具体、简洁，适合写产品文档 | “这段太像AI写的，缩短，但不要丢掉条件和结论。” |
 
-可以只处理已有材料，也可以在用户要求下补充研究。业务 Skill 包含必要表达约束，单独使用即可；文风 Skill 可用于独立润色。验收是各业务流程的一部分，不必另开一个只会打分的“大验收 Skill”。
+这四个 Skill 都可以用于写产品文档。可以只处理已有材料，也可以在用户要求下补充研究；可以单独使用，也可以按“竞品分析 → 用户评论收集 → 产品定义 → 文风调整”的顺序组合使用。业务 Skill 包含必要表达约束，文风 Skill 用于统一整篇文档的表达。验收是各业务流程的一部分，不必另开一个只会打分的“大验收 Skill”。
 
 ## 安装与使用
 
