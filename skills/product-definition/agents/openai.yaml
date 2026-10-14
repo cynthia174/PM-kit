@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品定义"
+  short_description: "从用户场景和证据拆解需求功能，比较分类与方案并标清待验证事项"
+  default_prompt: "使用 $product-definition 处理本次材料，按需读取标准和示例，交付结果并说明重要未决项。"

@@ -1,0 +1,52 @@
+{
+  "name": "pm-kit",
+  "owner": {
+    "name": "cynthia174"
+  },
+  "metadata": {
+    "description": "产品经理的独立工作流程与验收 Skills",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "product-writing-style",
+      "description": "把中文产品工作文字改得平实具体，减少套话与重复并保留原意和条件",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/product-writing-style"
+      ]
+    },
+    {
+      "name": "competitor-research",
+      "description": "比较竞品的实际功能与交互，组织总览、用法、素材、对比及证据结论",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/competitor-research"
+      ]
+    },
+    {
+      "name": "user-review-analysis",
+      "description": "将产品评论拆分归类并去重，保留原文出处，生成六列表格与需求洞察",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/user-review-analysis"
+      ]
+    },
+    {
+      "name": "product-definition",
+      "description": "从用户场景和证据拆解需求功能，比较分类与方案并标清待验证事项",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/product-definition"
+      ]
+    }
+  ]
+}

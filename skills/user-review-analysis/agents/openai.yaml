@@ -1,0 +1,4 @@
+interface:
+  display_name: "用户评论"
+  short_description: "将产品评论拆分归类并去重，保留原文出处，生成六列表格与需求洞察"
+  default_prompt: "使用 $user-review-analysis 处理本次材料，按需读取标准和示例，交付结果并说明重要未决项。"

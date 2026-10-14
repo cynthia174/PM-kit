@@ -1,0 +1,4 @@
+interface:
+  display_name: "竞品调研"
+  short_description: "比较竞品的实际功能与交互，组织总览、用法、素材、对比及证据结论"
+  default_prompt: "使用 $competitor-research 处理本次材料，按需读取标准和示例，交付结果并说明重要未决项。"
