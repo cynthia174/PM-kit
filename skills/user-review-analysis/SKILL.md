@@ -10,6 +10,7 @@ description: 将公开评论或用户提供的反馈整理为可追溯的产品�
 ## 按任务读取
 
 - 开始处理表格前读取 [字段与分类](references/table-contract.md)。
+- 需要主动收集公开反馈时读取 [来源平台建议](references/source-platforms.md)，按产品类型和研究问题选择来源，不机械覆盖所有平台。
 - 输出新章节时使用 [评论模板](assets/review-template.md)；用户有明确格式时适配。
 - 处理混合评价、替代产品或模糊提问时读取 [正反例](references/examples.md) 的对应案例。
 - 交付或验收前读取 [验收标准](references/acceptance.md)。
